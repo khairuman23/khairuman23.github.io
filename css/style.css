@@ -4,6 +4,20 @@
 	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+
+h4, h3, h2, h1 {
+	font-family: 'Yatra-One', serif;
+	margin-bottom: 35px;
+}
+
+.card-panel{
+    height: 200px; /* Your height here */
+    overflow: hidden;
+}
+
 .parallax-container {
 	height: 20%;
 }
@@ -18,10 +32,15 @@
 	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
 
+.carousel .carousel-item {
+width:400px !important;
+height: 400px;
+}
+
 section {
 	padding: 20px 0;
 }
 
 footer {
-	padding: 20px 0;
+	padding: 3px 0;
 }
