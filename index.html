@@ -54,21 +54,21 @@
       <div class="slider">
         <ul class="slides">
           <li>
-            <img src="img/slider/1.png">
+            <img class="responsive-img" src="img/slider/1.png">
             <div class="caption left-align">
-              <h1>WELCOME!</h>
+              <h1></h>
               <h4 class="light orange-text text-lighten-3"></h4>
             </div>
           </li>
           <li>
-            <img src="img/slider/2.png">
+            <img class="responsive-img" src="img/slider/2.png">
             <div class="caption center-align">
               <h3></h3>
               <h5 class="light grey-text text-lighten-3"></h5>
             </div>
           </li>
           <li>
-            <img src="img/slider/3.png">
+            <img class="responsive-img" src="img/slider/3.png">
             <div class="caption right-align">
               <h3</h3>
               <h5 class="light grey-text text-lighten-3"></h5>
@@ -103,7 +103,7 @@
           </div>
           <div class="row">
             <div class="col m12 s12 center-align">
-              <h5 class="orange-text text">Purchase my logo collection : <a class="waves-effect waves-light btn orange" href="https://www.logoground.com/designer.php?did=38653"><i class="material-icons left">cloud</i>Logoground</a> | <a class="waves-effect waves-light btn orange" href="https://brandcrowd.com/users/portfolio/logos/Khairuman"><i class="material-icons left">cloud</i>BrandCrowd</a></h5>
+              <h5 class="orange-text text h5small">Purchase my logo collection : </h5><a class="waves-effect waves-light btn orange h5small" href="https://www.logoground.com/designer.php?did=38653"><i class="material-icons left h5small">cloud</i>Logoground</a> <a class="waves-effect waves-light btn orange h5small" href="https://brandcrowd.com/users/portfolio/logos/Khairuman"><i class="material-icons left h5small">cloud</i>BrandCrowd</a>
             </div>
           </div>
         </div>
@@ -177,18 +177,18 @@
     <!-- PORTFOLIO CAROUSEL -->
     <section id="portfolio" class="portfolio scrollspy">
       <div class="container">
-        <h3 class="light center grey-text text-darken-3">Logos I've Designed</h3>
+        <h3 class="light center mobileLogo grey-text text-darken-3">Logos I've Designed</h3>
       <div class="row">
         <div class="col m12 s12">
               <div class="carousel carousel-item">
-    <a class="carousel-item" href="#one!"><p class="black-text center-align">G Center Gravity Logo</p><img src="img/portfolio/a.jpg"></a>
-    <a class="carousel-item" href="#two!"><p class="black-text center-align">F Fin Logo</p><img src="img/portfolio/b.jpg"></a>
-    <a class="carousel-item" href="#three!"><p class="black-text center-align">F Outline Wing Logo Logo</p><img src="img/portfolio/c.jpg"></a>
-    <a class="carousel-item" href="#four!"><p class="black-text center-align">A Arrow Logo</p><img src="img/portfolio/d.jpg"></a>
-    <a class="carousel-item" href="#five!"><p class="black-text center-align">Gemspot Logo (Letter G + GEM)</p><img src="img/portfolio/e.jpg"></a>
-    <a class="carousel-item" href="#five!"><p class="black-text center-align">PB Lettermark Logo</p><img src="img/portfolio/f.jpg"></a>
-    <a class="carousel-item" href="#five!"><p class="black-text center-align">Modern D Lettermark Logo</p><img src="img/portfolio/g.jpg"></a>
-    <a class="carousel-item" href="#five!"><p class="black-text center-align">Modern E Lettermark Logo</p><img src="img/portfolio/h.jpg"></a>
+    <a class="carousel-item" href="#"><p class="black-text center-align">G Center Gravity Logo</p><img src="img/portfolio/a.jpg"></a>
+    <a class="carousel-item" href="#"><p class="black-text center-align">F Fin Logo</p><img src="img/portfolio/b.jpg"></a>
+    <a class="carousel-item" href="#"><p class="black-text center-align">F Outline Wing Logo Logo</p><img src="img/portfolio/c.jpg"></a>
+    <a class="carousel-item" href="#"><p class="black-text center-align">A Arrow Logo</p><img src="img/portfolio/d.jpg"></a>
+    <a class="carousel-item" href="#"><p class="black-text center-align">Gemspot Logo (Letter G + GEM)</p><img src="img/portfolio/e.jpg"></a>
+    <a class="carousel-item" href="#"><p class="black-text center-align">PB Lettermark Logo</p><img src="img/portfolio/f.jpg"></a>
+    <a class="carousel-item" href="#"><p class="black-text center-align">Modern D Lettermark Logo</p><img src="img/portfolio/g.jpg"></a>
+    <a class="carousel-item" href="#"><p class="black-text center-align">Modern E Lettermark Logo</p><img src="img/portfolio/h.jpg"></a>
     </div>
     </div>
   </div>
@@ -211,10 +211,10 @@
         </div>
           <div class="row">
             <div class="col m6 s12 center-align">
-          <a href="https://bit.ly/2Ec5xy9" class="waves-effect waves-light btn orange">Download #1</a>
+          <a href="https://bit.ly/2Ec5xy9" class="waves-effect waves-light btn orange downButton">Download #1</a>
         </div>
         <div class="col m6 s12 center-align">
-          <a href="http://bit.ly/2MU8xDX" class="waves-effect waves-light btn orange">Download #2</a>
+          <a href="http://bit.ly/2MU8xDX" class="waves-effect waves-light btn orange downButton">Download #2</a>
         </div>
         </div>
         </div>
@@ -245,7 +245,7 @@
 
     <!-- FOOTER -->
     <footer class="orange darken-2 white-text center">
-      <p class="flow-text">Template Design by Sandhika Galih</p>
+      <p class="flow-text">©2020</p>
     </footer>
 
 
@@ -259,7 +259,6 @@
 
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       <script>
         const sideNav = document.querySelectorAll('.sidenav');
         M.Sidenav.init(sideNav);
@@ -269,7 +268,7 @@
           indicators: false,
           height: 500,
           transition: 600,
-          interval: 3000
+          interval: 4000
         })
 
         const parallax = document.querySelectorAll('.parallax');
@@ -288,7 +287,7 @@
     const carousel = document.querySelectorAll('.carousel');
     M.Carousel.init(carousel, {
       dist: -100, 
-      numVisible: 3
+      numVisible: 5
     });
 
 
